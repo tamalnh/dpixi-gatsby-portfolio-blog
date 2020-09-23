@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import Skills from "../components/Skills"
 import Experience from "../components/Experience"
+import Portfolio from "../components/Portfolio"
 
 import Light from "../theme/light"
 import Dark from "../theme/dark"
@@ -20,6 +21,7 @@ const IndexPage = () => (
       <Hero />
       <Skills />
       <Experience />
+      <Portfolio />
     </Layout>
   </ThemeProvider>
 )
